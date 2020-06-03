@@ -27,6 +27,7 @@ ALL_RESFLAGS += $(RESFLAGS) $(DEFINES) $(INCLUDES)
 LIBS +=
 LDDEPS +=
 LINKCMD = $(AR) -rcs "$@" $(OBJECTS)
+CC = gcc
 define PREBUILDCMDS
 endef
 define PRELINKCMDS
